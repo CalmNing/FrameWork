@@ -1,0 +1,1740 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e50b4c3b-3201-40b4-8d72-c415bb55f53b" name="Default Changelist" comment="车型价格联动">
+      <change afterPath="$PROJECT_DIR$/.idea/automation_framework_demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HrPersonnel/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HrPersonnel/ehaiHrConcreteImplementationMethod.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HrPersonnelTestSuites/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HrPersonnelTestSuites/ehai_hr_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PagePath/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RevenueSystemTestSuites/TestRunner.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RevenueSystemTestSuites/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RevenueSystemTestSuites/test_1CrewsTakePricing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RevenueSystemTestSuites/test_CityPriceSynchronous.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RevenueSystemTestSuites/test_StorePriceSynchronous.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RevenueSystemTestSuites/test_StorePriceSynchronousmore.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/config.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/basepage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/browser_engine.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/constans.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/logger.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902141431.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902141433.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902141438.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902141439.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902141440.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902141443.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902141449.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902141453.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902141457.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902141458.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902141506.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902141509.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902141512.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902141517.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902141518.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902141521.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902141616.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902141618.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902141619.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902141620.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902141622.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902141624.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902141626.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902141627.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902141628.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902141629.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902141630.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902141633.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902151355.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902151357.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902151403.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902151409.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902151414.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902151417.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902151419.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902151437.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902151440.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902151448.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902151450.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902151457.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902181039.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902181254.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902181344.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902181354.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902181356.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902181408.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902181526.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902181532.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902181534.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902181536.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902181539.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902181545.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902181553.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902181558.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902181602.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902181616.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902181639.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902181640.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902181707.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902181708.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902181712.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902181720.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902181725.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902181727.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902181730.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902181732.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902181735.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902181737.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902181739.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902181741.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902181743.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902181744.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902181745.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902181748.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902181806.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902181807.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902191421.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902191422.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902191432.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902191434.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902191436.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902191438.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902191439.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902191440.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902191441.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902191445.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902191706.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902191707.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902191711.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902191713.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902191725.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902191728.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902191730.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902191732.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902191736.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902191741.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902191743.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902191746.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902200941.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902200943.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902200946.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902200950.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902201114.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902201118.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902201122.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902201535.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902201538.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902201548.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902201622.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902201624.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902201629.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902201631.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902201635.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902201730.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902201732.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902201733.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902201735.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902211000.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902211001.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902211006.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902211117.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902271416.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902271417.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902271429.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902271437.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902271511.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902271516.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902271523.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902271526.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902271529.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902271637.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902271705.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902271706.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902271718.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902271722.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902271739.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902271749.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902271750.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902271751.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902271753.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902271757.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902271759.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902271801.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902271802.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902271804.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902271805.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201902271806.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903011416.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903011452.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903011456.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903011506.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903011509.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903011510.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903011512.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903011513.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903011519.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903011520.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903011522.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903011526.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903011626.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903011639.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903011641.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903011643.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903011647.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903011650.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903011651.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903011653.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903011659.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903011701.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903011702.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903081450.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903081453.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903081454.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903081507.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903081528.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903081530.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903081538.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903081539.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903081542.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903081545.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903081547.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903081549.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903081550.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903081551.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903081553.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903081554.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903081609.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903081610.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903081613.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903081615.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903081618.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903081620.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903081623.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903081626.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903081705.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903081739.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903081740.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903081745.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903081746.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903081747.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903081802.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903081812.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903081813.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903110938.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903111120.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903111122.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903111555.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903111600.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903111611.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903111619.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903111626.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903111650.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903111654.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903111705.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903111837.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903111839.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903111845.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903111846.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903111847.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903111848.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903111849.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903111854.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903111857.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903111858.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903111906.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903111907.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903111910.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903111926.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903111928.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903120953.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903120959.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903121003.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903121004.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903121006.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903121010.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903121036.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903121048.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903121049.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903121103.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903121104.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903121335.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903121336.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903121353.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903121354.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903121413.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903121459.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903121518.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903131607.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903131608.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903131614.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903131620.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903131621.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903131623.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903131624.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903131625.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903131633.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903131634.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903131635.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903131656.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903131743.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903131800.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903131801.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903131802.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903131803.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903140919.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903140948.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903140958.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903141008.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903141009.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903141023.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903141024.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903141040.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903141046.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903191030.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903271451.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903271452.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903271453.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903271455.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903271457.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903271515.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903271516.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903271551.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903271854.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903271916.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903271918.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903271920.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903271923.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903271924.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903271927.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903271929.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903271935.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903271952.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903271954.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903272025.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903272035.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903281014.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903281015.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903281018.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903281027.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903281043.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903281051.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903281057.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903281101.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903281108.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903281119.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903281341.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903281342.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903281409.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903281410.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903281411.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903281542.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903281553.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903281609.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903281647.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903281701.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903281705.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903281708.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903281712.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903281748.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903281751.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903290920.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903290921.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903290924.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903290938.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903290953.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903290956.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903290958.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903291007.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903291344.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903291349.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903291354.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903291407.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903291452.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903291500.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903291505.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903291521.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/201903291529.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pageobjects/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pageobjects/cre_booking_yihai_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pageobjects/cre_mgmt_four_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pageobjects/cre_mgmt_three_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pageobjects/cre_mgmt_two_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pageobjects/eczj_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pageobjects/mod_booking_yihai_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pageobjects/mod_mgmt_four_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pageobjects/mod_mgmt_three_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pageobjects/mod_mgmt_two_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CrewsTakePricing_one.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testsuites/TestRunner.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testsuites/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testsuites/test_cash_back_order.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testsuites/test_group_order.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testsuites/test_group_upgrade_order.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/geckodriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/easy-install.pth" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/EGG-INFO/PKG-INFO" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/EGG-INFO/SOURCES.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/EGG-INFO/dependency_links.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/EGG-INFO/entry_points.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/EGG-INFO/not-zip-safe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/EGG-INFO/requires.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/EGG-INFO/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/__main__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/basecommand.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/baseparser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/build_env.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/cache.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/cmdoptions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/commands/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/commands/check.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/commands/completion.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/commands/configuration.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/commands/download.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/commands/freeze.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/commands/hash.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/commands/help.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/commands/install.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/commands/list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/commands/search.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/commands/show.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/commands/uninstall.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/commands/wheel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/compat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/configuration.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/download.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/exceptions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/index.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/locations.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/models/index.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/operations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/operations/check.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/operations/freeze.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/operations/prepare.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/pep425tags.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/req/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/req/req_file.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/req/req_install.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/req/req_set.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/req/req_uninstall.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/resolve.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/status_codes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/utils/appdirs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/utils/deprecation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/utils/encoding.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/utils/filesystem.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/utils/glibc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/utils/hashes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/utils/logging.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/utils/misc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/utils/outdated.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/utils/packaging.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/utils/setuptools_build.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/utils/temp_dir.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/utils/typing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/utils/ui.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/vcs/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/vcs/bazaar.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/vcs/git.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/vcs/mercurial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/vcs/subversion.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_internal/wheel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/appdirs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/cachecontrol/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/cachecontrol/_cmd.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/cachecontrol/adapter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/cachecontrol/cache.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/cachecontrol/caches/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/cachecontrol/caches/file_cache.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/cachecontrol/caches/redis_cache.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/cachecontrol/compat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/cachecontrol/controller.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/cachecontrol/filewrapper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/cachecontrol/heuristics.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/cachecontrol/serialize.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/cachecontrol/wrapper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/certifi/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/certifi/__main__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/certifi/cacert.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/certifi/core.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/chardet/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/chardet/big5freq.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/chardet/big5prober.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/chardet/chardistribution.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/chardet/charsetgroupprober.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/chardet/charsetprober.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/chardet/cli/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/chardet/cli/chardetect.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/chardet/codingstatemachine.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/chardet/compat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/chardet/cp949prober.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/chardet/enums.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/chardet/escprober.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/chardet/escsm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/chardet/eucjpprober.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/chardet/euckrfreq.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/chardet/euckrprober.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/chardet/euctwfreq.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/chardet/euctwprober.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/chardet/gb2312freq.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/chardet/gb2312prober.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/chardet/hebrewprober.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/chardet/jisfreq.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/chardet/jpcntx.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/chardet/langbulgarianmodel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/chardet/langcyrillicmodel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/chardet/langgreekmodel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/chardet/langhebrewmodel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/chardet/langhungarianmodel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/chardet/langthaimodel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/chardet/langturkishmodel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/chardet/latin1prober.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/chardet/mbcharsetprober.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/chardet/mbcsgroupprober.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/chardet/mbcssm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/chardet/sbcharsetprober.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/chardet/sbcsgroupprober.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/chardet/sjisprober.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/chardet/universaldetector.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/chardet/utf8prober.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/chardet/version.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/colorama/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/colorama/ansi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/colorama/ansitowin32.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/colorama/initialise.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/colorama/win32.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/colorama/winterm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/distlib/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/distlib/_backport/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/distlib/_backport/misc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/distlib/_backport/shutil.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/distlib/_backport/sysconfig.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/distlib/_backport/sysconfig.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/distlib/_backport/tarfile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/distlib/compat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/distlib/database.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/distlib/index.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/distlib/locators.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/distlib/manifest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/distlib/markers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/distlib/metadata.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/distlib/resources.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/distlib/scripts.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/distlib/t32.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/distlib/t64.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/distlib/util.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/distlib/version.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/distlib/w32.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/distlib/w64.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/distlib/wheel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/distro.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/html5lib/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/html5lib/_ihatexml.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/html5lib/_inputstream.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/html5lib/_tokenizer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/html5lib/_trie/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/html5lib/_trie/_base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/html5lib/_trie/datrie.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/html5lib/_trie/py.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/html5lib/_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/html5lib/constants.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/html5lib/filters/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/html5lib/filters/alphabeticalattributes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/html5lib/filters/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/html5lib/filters/inject_meta_charset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/html5lib/filters/lint.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/html5lib/filters/optionaltags.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/html5lib/filters/sanitizer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/html5lib/filters/whitespace.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/html5lib/html5parser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/html5lib/serializer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/html5lib/treeadapters/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/html5lib/treeadapters/genshi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/html5lib/treeadapters/sax.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/html5lib/treebuilders/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/html5lib/treebuilders/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/html5lib/treebuilders/dom.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/html5lib/treebuilders/etree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/html5lib/treebuilders/etree_lxml.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/html5lib/treewalkers/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/html5lib/treewalkers/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/html5lib/treewalkers/dom.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/html5lib/treewalkers/etree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/html5lib/treewalkers/etree_lxml.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/html5lib/treewalkers/genshi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/idna/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/idna/codec.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/idna/compat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/idna/core.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/idna/idnadata.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/idna/intranges.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/idna/package_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/idna/uts46data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/ipaddress.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/lockfile/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/lockfile/linklockfile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/lockfile/mkdirlockfile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/lockfile/pidlockfile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/lockfile/sqlitelockfile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/lockfile/symlinklockfile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/msgpack/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/msgpack/_version.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/msgpack/exceptions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/msgpack/fallback.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/packaging/__about__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/packaging/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/packaging/_compat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/packaging/_structures.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/packaging/markers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/packaging/requirements.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/packaging/specifiers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/packaging/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/packaging/version.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/pkg_resources/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/pkg_resources/py31compat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/progress/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/progress/bar.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/progress/counter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/progress/helpers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/progress/spinner.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/pyparsing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/pytoml/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/pytoml/core.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/pytoml/parser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/pytoml/writer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/requests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/requests/__version__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/requests/_internal_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/requests/adapters.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/requests/api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/requests/auth.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/requests/certs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/requests/compat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/requests/cookies.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/requests/exceptions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/requests/help.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/requests/hooks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/requests/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/requests/packages.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/requests/sessions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/requests/status_codes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/requests/structures.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/requests/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/retrying.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/six.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/urllib3/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/urllib3/_collections.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/urllib3/connection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/urllib3/connectionpool.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/urllib3/contrib/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/urllib3/contrib/_securetransport/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/urllib3/contrib/_securetransport/bindings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/urllib3/contrib/_securetransport/low_level.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/urllib3/contrib/appengine.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/urllib3/contrib/ntlmpool.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/urllib3/contrib/pyopenssl.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/urllib3/contrib/securetransport.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/urllib3/contrib/socks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/urllib3/exceptions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/urllib3/fields.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/urllib3/filepost.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/urllib3/packages/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/urllib3/packages/backports/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/urllib3/packages/backports/makefile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/urllib3/packages/ordered_dict.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/urllib3/packages/six.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/urllib3/packages/ssl_match_hostname/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/urllib3/packages/ssl_match_hostname/_implementation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/urllib3/poolmanager.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/urllib3/request.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/urllib3/response.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/urllib3/util/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/urllib3/util/connection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/urllib3/util/request.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/urllib3/util/response.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/urllib3/util/retry.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/urllib3/util/selectors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/urllib3/util/ssl_.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/urllib3/util/timeout.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/urllib3/util/url.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/urllib3/util/wait.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/webencodings/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/webencodings/labels.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/webencodings/mklabels.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/webencodings/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-10.0.1-py3.7.egg/pip/_vendor/webencodings/x_user_defined.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools-39.1.0-py3.7.egg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools.pth" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/tcl8.6/init.tcl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/Activate.ps1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/_asyncio.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/_bz2.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/_contextvars.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/_ctypes.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/_ctypes_test.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/_decimal.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/_distutils_findvs.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/_elementtree.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/_hashlib.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/_lzma.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/_msi.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/_multiprocessing.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/_overlapped.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/_queue.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/_socket.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/_sqlite3.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/_ssl.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/_testbuffer.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/_testcapi.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/_testconsole.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/_testimportmultiple.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/_testmultiphase.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/_tkinter.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/activate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/activate.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/deactivate.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/easy_install-3.7-script.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/easy_install-3.7.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/easy_install-script.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/easy_install.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/libcrypto-1_1-x64.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/libssl-1_1-x64.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/pip-script.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/pip.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/pip3-script.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/pip3.7-script.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/pip3.7.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/pip3.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/pyexpat.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/python-3.7.0-amd64.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/python.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/python3.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/python37.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/pythonw.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/select.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/sqlite3.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/tcl86t.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/tk86t.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/unicodedata.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/vcruntime140.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/winsound.pyd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyvenv.cfg" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/venv/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/AutoReturn_python$Unittests_in_test_cash_back_order_py.coverage" NAME="Unittests in test_cash_back_order.py Coverage Results" MODIFIED="1550125879795" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuites" />
+    <SUITE FILE_PATH="coverage/AutoReturn_python$Unittests_for_Test_CrewsTakePricing_CrewsTakePricing_test_case_CrewsTakePricing.coverage" NAME="Unittests for Test_CrewsTakePricing.CrewsTakePricing.test_case_CrewsTakePricing Coverage Results" MODIFIED="1552028074008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RevenueSystemTestSuites" />
+    <SUITE FILE_PATH="coverage/AutoReturn_python$Unittests_for_ehai_hr_page_CrewsTakePricing.coverage" NAME="Unittests for ehai_hr_page.CrewsTakePricing Coverage Results" MODIFIED="1550719070597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HrPersonnelTestSuites" />
+    <SUITE FILE_PATH="coverage/AutoReturn_python$CrewsTakePricing_one.coverage" NAME="CrewsTakePricing_one Coverage Results" MODIFIED="1551424823791" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/AutoReturn_python$Unittests_for_CrewsTakePricing_CrewsTakePricing.coverage" NAME="Unittests for CrewsTakePricing.CrewsTakePricing Coverage Results" MODIFIED="1551248200198" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RevenueSystemTestSuites" />
+    <SUITE FILE_PATH="coverage/AutoReturn_python$browser_engine.coverage" NAME="browser_engine Coverage Results" MODIFIED="1550632702577" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/framework" />
+    <SUITE FILE_PATH="coverage/automation_framework_demo$Unittests_for_test_group_order_GroupOrder_test_group.coverage" NAME="Unittests for test_group_order.GroupOrder.test_group Coverage Results" MODIFIED="1548654701708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuites" />
+    <SUITE FILE_PATH="coverage/AutoReturn_python$Unittests_in_Test_CrewsTakePricing_py.coverage" NAME="Unittests in Test_CrewsTakePricing.py Coverage Results" MODIFIED="1552040036400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RevenueSystemTestSuites" />
+    <SUITE FILE_PATH="coverage/automation_framework_demo$Unittests_for_test_group_order_GroupOrder.coverage" NAME="Unittests for test_group_order.GroupOrder Coverage Results" MODIFIED="1548738673194" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuites" />
+    <SUITE FILE_PATH="coverage/AutoReturn_python$TestRunner.coverage" NAME="TestRunner Coverage Results" MODIFIED="1550042566667" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuites" />
+    <SUITE FILE_PATH="coverage/AutoReturn_python$Unittests_for_CrewsTakePricing_CrewsTakePricing_test_case_CrewsTakePricing.coverage" NAME="Unittests for CrewsTakePricing.CrewsTakePricing.test_case_CrewsTakePricing Coverage Results" MODIFIED="1551249471269" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RevenueSystemTestSuites" />
+    <SUITE FILE_PATH="coverage/AutoReturn_python$Unittests_for_test_cash_back_order_GroupOrder.coverage" NAME="Unittests for test_cash_back_order.GroupOrder Coverage Results" MODIFIED="1550128737487" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuites" />
+    <SUITE FILE_PATH="coverage/AutoReturn_python$ehaiHrConcreteImplementationMethod.coverage" NAME="ehaiHrConcreteImplementationMethod Coverage Results" MODIFIED="1550655155343" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HrPersonnel" />
+    <SUITE FILE_PATH="coverage/automation_framework_demo$eczj.coverage" NAME="eczj Coverage Results" MODIFIED="1548655788046" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools" />
+    <SUITE FILE_PATH="coverage/automation_framework_demo$cc.coverage" NAME="cc Coverage Results" MODIFIED="1548654576956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/AutoReturn_python$basepage.coverage" NAME="basepage Coverage Results" MODIFIED="1550469372416" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/framework" />
+    <SUITE FILE_PATH="coverage/AutoReturn_python$Unittests_in_ehai_hr_page_py.coverage" NAME="Unittests in ehai_hr_page.py Coverage Results" MODIFIED="1550714473150" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HrPersonnelTestSuites" />
+    <SUITE FILE_PATH="coverage/AutoReturn_python$Unittests_for_Test_CrewsTakePricing_CrewsTakePricing.coverage" NAME="Unittests for Test_CrewsTakePricing.CrewsTakePricing Coverage Results" MODIFIED="1552039343696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RevenueSystemTestSuites" />
+    <SUITE FILE_PATH="coverage/AutoReturn_python$Unittests_for_test_cash_back_order_GroupOrder_test_cash_back.coverage" NAME="Unittests for test_cash_back_order.GroupOrder.test_cash_back Coverage Results" MODIFIED="1550128886030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testsuites" />
+    <SUITE FILE_PATH="coverage/AutoReturn_python$Unittests_for_ehai_hr_page_CrewsTakePricing_test_Case_ehi.coverage" NAME="Unittests for ehai_hr_page.CrewsTakePricing.test_Case_ehi Coverage Results" MODIFIED="1550714818624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HrPersonnelTestSuites" />
+    <SUITE FILE_PATH="coverage/AutoReturn_python$Unittests_in_CrewsTakePricing_py.coverage" NAME="Unittests in Test_CrewsTakePricing.py Coverage Results" MODIFIED="1551261902755" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RevenueSystemTestSuites" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>输入</find>
+      <find>selector</find>
+      <find>get</find>
+      <find>3</find>
+      <find>文本</find>
+      <find>frame</find>
+      <find>accept</find>
+      <find>value</find>
+      <find>text</find>
+      <find>wait</find>
+      <find>/html/body/div[3]/aside[1]/section/ul/li[1]/ul/li[1]/a</find>
+      <find>EditSyncCityPrice</find>
+      <find>/html/body/div[7]/div/div[1]</find>
+      <find>js</find>
+      <find>store_price_synchronous_lease</find>
+      <find>同步值测试异常</find>
+      <find>one</find>
+      <find>int(object)</find>
+      <find>abs(self)</find>
+      <find>CarSetPricing</find>
+      <find>list</find>
+      <find>等待</find>
+      <find>EC</find>
+      <find>//*[@id=&quot;EditGroupCarTypePriceLinkage&quot;]/div/div[2]/form/div[7]/div/div/div[1]/div[2]/div[2]/table/tbody/tr[{i}]/td[6]/input</find>
+      <find>金额</find>
+      <find>element_wait</find>
+      <find>//*[@id=&quot;EditGroupCarTypePriceLinkage&quot;]/div/div[2]/form/div[7]/div/div/div[1]/div[2]/div[2]/table/tbody/tr[{i}]/td[5]</find>
+      <find>CARMODELNAME</find>
+      <find>btnSubmitPriceLinkage</find>
+      <find>城市统一配置</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>is_element_exsit</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Rebase.Settings">
+    <option name="ONTO" value="refs/heads/master" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="D:/" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/cc.py" />
+        <option value="$PROJECT_DIR$/tools/eczj.py" />
+        <option value="$PROJECT_DIR$/pageobjects/cre_mgmt_two_page.py" />
+        <option value="$PROJECT_DIR$/testsuites/test_group_order.py" />
+        <option value="$PROJECT_DIR$/pageobjects/mod_mgmt_three_page.py" />
+        <option value="$PROJECT_DIR$/pageobjects/cre_mgmt_three_page.py" />
+        <option value="$PROJECT_DIR$/framework/constans.py" />
+        <option value="$PROJECT_DIR$/HTMLTestRunner.py" />
+        <option value="D:/Ehi/Python37-32/Lib/HTMLTestRunner.py" />
+        <option value="$PROJECT_DIR$/testsuites/TestRunner.py" />
+        <option value="$PROJECT_DIR$/testsuites/test_group_upgrade_order.py" />
+        <option value="$PROJECT_DIR$/PagePath/CrewsTakePricing.py" />
+        <option value="$PROJECT_DIR$/framework/logger.py" />
+        <option value="$PROJECT_DIR$/src/testsuites/test_cash_back_order.py" />
+        <option value="$PROJECT_DIR$/src/RevenueSystemTestSuites/CrewsTakePricing.py" />
+        <option value="$PROJECT_DIR$/testsuites/test_cash_back_order.py" />
+        <option value="$PROJECT_DIR$/pageobjects/eczj_page.py" />
+        <option value="$PROJECT_DIR$/config/config.ini" />
+        <option value="$PROJECT_DIR$/HrPersonnelTestSuites/ehai_hr_page.py" />
+        <option value="$PROJECT_DIR$/HrPersonnel/ehaiHrConcreteImplementationMethod.py" />
+        <option value="$PROJECT_DIR$/RevenueSystemTestSuites/CrewsTakePricing.py" />
+        <option value="$PROJECT_DIR$/RevenueSystemTestSuites/Test_CrewsTakePricing.py" />
+        <option value="$PROJECT_DIR$/RevenueSystemTestSuites/test_CrewsTakePricing.py" />
+        <option value="$PROJECT_DIR$/RevenueSystemTestSuites/test_StorePriceSynchronous.py" />
+        <option value="D:/Ehi/Python37-32/Lib/HTMLTestRunnerCN.py" />
+        <option value="$PROJECT_DIR$/RevenueSystemTestSuites/test_1CrewsTakePricing.py" />
+        <option value="$PROJECT_DIR$/framework/browser_engine.py" />
+        <option value="$PROJECT_DIR$/framework/GetDBconfig.py" />
+        <option value="$PROJECT_DIR$/config/db_config.ini" />
+        <option value="$PROJECT_DIR$/RevenueSystemTestSuites/test_CityPriceSynchronous.py" />
+        <option value="$PROJECT_DIR$/RevenueSystemTestSuites/test_StorePriceSynchronousmore.py" />
+        <option value="$PROJECT_DIR$/framework/Time.py" />
+        <option value="$PROJECT_DIR$/RevenueSystemTestSuites/TestRunner.py" />
+        <option value="$PROJECT_DIR$/PagePath/CrewsTakePricingPath.py" />
+        <option value="$PROJECT_DIR$/framework/basepage.py" />
+        <option value="$PROJECT_DIR$/framework/MYSQL_client.py" />
+        <option value="$PROJECT_DIR$/src/CrewsTakePricing_one.py" />
+        <option value="$PROJECT_DIR$/src/PriceLinkage.py" />
+        <option value="$PROJECT_DIR$/RevenueSystemTestSuites/test_ModelPriceLinkage.py" />
+        <option value="$PROJECT_DIR$/src/test.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
+      <showMembers ProjectPane="true" />
+      <autoscrollToSource ProjectPane="true" />
+      <autoscrollFromSource ProjectPane="true" />
+      <sortByType ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="AutoReturn_python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutoReturn_python" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutoReturn_python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutoReturn_python" type="462c0819:PsiDirectoryNode" />
+              <item name="framework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutoReturn_python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutoReturn_python" type="462c0819:PsiDirectoryNode" />
+              <item name="pageobjects" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutoReturn_python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutoReturn_python" type="462c0819:PsiDirectoryNode" />
+              <item name="PagePath" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutoReturn_python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutoReturn_python" type="462c0819:PsiDirectoryNode" />
+              <item name="RevenueSystemTestSuites" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutoReturn_python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutoReturn_python" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutoReturn_python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutoReturn_python" type="462c0819:PsiDirectoryNode" />
+              <item name="testsuites" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="AutoReturn_python" type="cbb8eebc:String" user="AutoReturn_python" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="AutoReturn_python" type="cbb8eebc:String" user="AutoReturn_python" />
+              <item name="framework" type="cbb8eebc:String" user="framework" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="AutoReturn_python" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ChangesTree.GroupingKeys" value="directory" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../API_check" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\PycharmProjects\AutoReturn_python" />
+      <recent name="D:\PycharmProjects\AutoReturn_python\src" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.test">
+    <configuration name="PriceLinkage" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="automation_framework_demo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/PriceLinkage.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Time" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="automation_framework_demo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/framework" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/framework/Time.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="automation_framework_demo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_ModelPriceLinkage" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="automation_framework_demo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/RevenueSystemTestSuites" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RevenueSystemTestSuites/test_ModelPriceLinkage.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_ModelPriceLinkage.test_StorePriceSynchronous" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="automation_framework_demo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/RevenueSystemTestSuites" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_ModelPriceLinkage.test_StorePriceSynchronous&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.test_ModelPriceLinkage" />
+      <item itemvalue="Python.Time" />
+      <item itemvalue="Python.PriceLinkage" />
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python tests.Unittests for test_ModelPriceLinkage.test_StorePriceSynchronous" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.test_ModelPriceLinkage" />
+        <item itemvalue="Python.PriceLinkage" />
+        <item itemvalue="Python.Time" />
+        <item itemvalue="Python tests.Unittests for test_ModelPriceLinkage.test_StorePriceSynchronous" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e50b4c3b-3201-40b4-8d72-c415bb55f53b" name="Default Changelist" comment="" />
+      <created>1548404156202</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1548404156202</updated>
+    </task>
+    <task id="LOCAL-00001" summary="车型价格联动">
+      <created>1554793721815</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1554793721815</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_for_test_StorePriceSynchronousmore_test_StorePriceSynchronous - 2019.03.12 at 13h 56m 06s.xml">
+      <configuration name="Unittests for test_StorePriceSynchronousmore.test_StorePriceSynchronous" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_StorePriceSynchronousmore_py - 2019.03.12 at 14h 14m 27s.xml">
+      <configuration name="Unittests in test_StorePriceSynchronousmore.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_CityPriceSynchronous_test_StorePriceSynchronous_test_1 - 2019.03.12 at 15h 00m 17s.xml">
+      <configuration name="Unittests for test_CityPriceSynchronous.test_StorePriceSynchronous.test_1" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_CityPriceSynchronous_test_StorePriceSynchronous_test_1 - 2019.03.12 at 15h 19m 36s.xml">
+      <configuration name="Unittests for test_CityPriceSynchronous.test_StorePriceSynchronous.test_1" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_1CrewsTakePricing_test_CrewsTakePricing - 2019.03.14 at 10h 03m 39s.xml">
+      <configuration name="Unittests for test_1CrewsTakePricing.test_CrewsTakePricing" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_StorePriceSynchronous_test_StorePriceSynchronous - 2019.03.14 at 10h 09m 04s.xml">
+      <configuration name="Unittests for test_StorePriceSynchronous.test_StorePriceSynchronous" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_StorePriceSynchronous_test_StorePriceSynchronous_test_3 - 2019.03.14 at 10h 21m 13s.xml">
+      <configuration name="Unittests for test_StorePriceSynchronous.test_StorePriceSynchronous.test_3" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_1CrewsTakePricing_test_CrewsTakePricing - 2019.03.14 at 10h 44m 57s.xml">
+      <configuration name="Unittests for test_1CrewsTakePricing.test_CrewsTakePricing" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_StorePriceSynchronousmore_test_StorePriceSynchronous - 2019.03.14 at 10h 55m 44s.xml">
+      <configuration name="Unittests for test_StorePriceSynchronousmore.test_StorePriceSynchronous" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_ModelPriceLinkage_test_StorePriceSynchronous - 2019.03.19 at 10h 30m 43s.xml">
+      <configuration name="Unittests for test_ModelPriceLinkage.test_StorePriceSynchronous" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Structure" order="0" sideWeight="0.5013889" side_tool="true" weight="0.1512118" />
+      <window_info id="Favorites" order="1" side_tool="true" />
+      <window_info active="true" content_ui="combo" x="760" y="148" width="493" height="740" id="Project" order="2" sideWeight="0.49861112" visible="true" weight="0.1512118" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4968017" visible="true" weight="0.22210184" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3982684" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32827735" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50319827" side_tool="true" weight="0.33261105" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32936078" />
+      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.4989339" weight="0.3391116" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.32995737" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32995737" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="1" side_tool="true" />
+      <window_info active="true" content_ui="combo" x="760" y="148" width="493" height="740" id="Project" order="2" visible="true" weight="0.12961012" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4968017" visible="true" weight="0.27843988" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3982684" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32827735" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50319827" side_tool="true" weight="0.33261105" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32936078" />
+      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.4989339" weight="0.32792208" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.32995737" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32995737" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="2">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_TABS">
+      <set>
+        <option value="1" />
+        <option value="2" />
+      </set>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="车型价格联动" />
+    <option name="LAST_COMMIT_MESSAGE" value="车型价格联动" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tools/eczj.py</url>
+          <line>36</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tools/eczj.py</url>
+          <line>37</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tools/eczj.py</url>
+          <line>38</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>click</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/config/config.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="9" column="7" selection-start-line="9" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Ehi/Python37-32/Lib/unittest/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4916">
+          <caret line="274" selection-start-line="274" selection-end-line="274" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Ehi/Python37-32/Lib/random.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13">
+          <caret line="173" column="8" selection-start-line="173" selection-start-column="8" selection-end-line="173" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pageobjects/cre_booking_yihai_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="20" column="53" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pycharm/_jb_unittest_runner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Ehi/Python37-32/Lib/site-packages/selenium/webdriver/chrome/webdriver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="454">
+          <caret line="74" column="12" selection-start-line="74" selection-start-column="12" selection-end-line="74" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testsuites/TestRunner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pageobjects/cre_mgmt_four_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testsuites/test_group_order.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="40" column="11" lean-forward="true" selection-start-line="40" selection-start-column="11" selection-end-line="40" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Ehi/Python37-32/Lib/site-packages/selenium/webdriver/remote/webelement.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9360">
+          <caret line="478" column="50" selection-start-line="478" selection-start-column="50" selection-end-line="478" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testsuites/test_group_upgrade_order.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="37" column="40" selection-start-line="37" selection-start-column="40" selection-end-line="37" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pageobjects/eczj_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Ehi/Python37-32/Lib/HTMLTestRunner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="72" selection-start-line="72" selection-end-line="72" />
+          <folding>
+            <element signature="e#3215#3230#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Ehi/Python37-32/Lib/HTMLTestRunnerCN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14000">
+          <caret line="769" selection-start-line="769" selection-end-line="769" />
+          <folding>
+            <element signature="e#3409#3424#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testsuites/test_cash_back_order.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="95" column="26" lean-forward="true" selection-start-line="95" selection-start-column="26" selection-end-line="95" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RevenueSystemTestSuites/TestRunner.spec" />
+    <entry file="file://$PROJECT_DIR$/PagePath/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/.editorconfig" />
+    <entry file="file://$PROJECT_DIR$/logs/201902141433.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pycharm/teamcity/unittestpy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="306" selection-start-line="306" selection-end-line="306" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/db_config.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="10" lean-forward="true" selection-start-column="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RevenueSystemTestSuites/operation_database.log" />
+    <entry file="file://$PROJECT_DIR$/framework/logger.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="31" column="31" lean-forward="true" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
+          <folding>
+            <element signature="e#24#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Ehi/Python37-32/Lib/test/test_descr.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="4838" column="71" lean-forward="true" selection-start-line="4838" selection-start-column="71" selection-end-line="4838" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2and3/time.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3">
+          <folding>
+            <element signature="e#90#100#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RevenueSystemTestSuites/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.3/system/python_stubs/920336997/time.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-199">
+          <caret line="172" column="4" selection-start-line="172" selection-start-column="4" selection-end-line="172" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/constans.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="90" column="4" selection-start-line="90" selection-start-column="4" selection-end-line="90" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Ehi/Python37-32/Lib/site-packages/pymysql/cursors.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="146" selection-start-line="146" selection-end-line="146" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Ehi/Python37-32/Lib/site-packages/selenium/webdriver/remote/errorhandler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="244" column="50" lean-forward="true" selection-start-line="244" selection-start-column="50" selection-end-line="244" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.3/system/python_stubs/920336997/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="2600" column="19" lean-forward="true" selection-start-line="2600" selection-start-column="19" selection-end-line="2600" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Ehi/Python37-32/Lib/site-packages/selenium/webdriver/support/expected_conditions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" column="59" lean-forward="true" selection-start-line="13" selection-start-column="59" selection-end-line="13" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Ehi/Python37-32/Lib/site-packages/selenium/webdriver/support/wait.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="61" column="8" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="8" />
+          <folding>
+            <element signature="e#788#799#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Ehi/Python37-32/Lib/site-packages/PyInstaller/utils/win32/versioninfo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="454" column="13" selection-start-line="454" selection-start-column="13" selection-end-line="454" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Ehi/Python37-32/Lib/doctest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="2668" column="13" selection-start-line="2668" selection-start-column="13" selection-end-line="2668" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/browser_engine.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-267">
+          <caret selection-end-column="22" />
+          <folding>
+            <element signature="e#23#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/basepage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="310" column="10" lean-forward="true" selection-start-line="310" selection-start-column="10" selection-end-line="310" selection-end-column="10" />
+          <folding>
+            <element signature="e#43#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/GetDBconfig.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="e#37#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/MYSQL_client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="619">
+          <caret line="32" column="43" lean-forward="true" selection-start-line="32" selection-start-column="43" selection-end-line="32" selection-end-column="43" />
+          <folding>
+            <element signature="e#23#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/Time.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="56" lean-forward="true" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
+          <folding>
+            <element signature="e#41#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PagePath/CrewsTakePricingPath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1780">
+          <caret line="89" column="14" selection-start-line="89" selection-start-column="8" selection-end-line="89" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RevenueSystemTestSuites/test_ModelPriceLinkage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="38" column="6" selection-start-line="38" selection-start-column="6" selection-end-line="38" selection-end-column="6" />
+          <folding>
+            <element signature="e#71#86#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RevenueSystemTestSuites/test_CityPriceSynchronous.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="39" column="36" lean-forward="true" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
+          <folding>
+            <element signature="e#71#86#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RevenueSystemTestSuites/test_1CrewsTakePricing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="39" column="20" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
+          <folding>
+            <element signature="e#71#86#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RevenueSystemTestSuites/TestRunner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RevenueSystemTestSuites/test_StorePriceSynchronous.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="760">
+          <caret line="41" column="33" lean-forward="true" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
+          <folding>
+            <element signature="e#71#86#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="22" column="15" lean-forward="true" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RevenueSystemTestSuites/test_StorePriceSynchronousmore.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+          <folding>
+            <element signature="e#71#86#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CrewsTakePricing_one.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#41#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PriceLinkage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="39" column="21" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
+          <folding>
+            <element signature="e#41#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

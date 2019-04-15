@@ -1,0 +1,7 @@
+test git push 
+1. git remote -v 	show remote config
+2. git remote rm origin 	delete origin
+3. git remote origin + http://.... 	config origin
+4. git pull origin 	get remote file (update or add )
+5. git pull --rebase origin master 	print log measege
+6. git push origin master 	remote push 
